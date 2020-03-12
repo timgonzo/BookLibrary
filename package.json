@@ -19,14 +19,19 @@
   },
   "homepage": "https://github.com/timgonzo/BookLibrary#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "bootstrap": "3.3.7",
+    "cookie-parser": "^1.4.4",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "express-session": "^1.17.0",
     "jquery": "^3.4.1",
     "mongodb": "^3.5.4",
     "morgan": "^1.9.1",
     "mssql": "^6.1.0",
     "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
