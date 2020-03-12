@@ -4,7 +4,7 @@
   "description": "A library app for books",
   "main": "app.js",
   "scripts": {
-    "start": "set DEBUG=app & nodemon app.js",
+    "start": "set DEBUG=app,app:* & nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint app.js"
   },
@@ -19,10 +19,13 @@
   },
   "homepage": "https://github.com/timgonzo/BookLibrary#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "3.3.7",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
+    "mongodb": "^3.5.4",
     "morgan": "^1.9.1",
+    "mssql": "^6.1.0",
     "nodemon": "^2.0.2",
     "popper.js": "^1.16.1"
   },
