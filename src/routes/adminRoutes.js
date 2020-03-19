@@ -6,6 +6,7 @@ const debug = require('debug')('app:adminRoutes');
 
 const adminRouter = express.Router();
 
+// To populate DB with books
 const books = [
   {
     title: 'War and Peace',

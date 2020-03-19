@@ -18,5 +18,6 @@ module.exports = {
     'arrow-parens': 1,
     'wrap-iife': 0,
     'no-console': 2,
+    'arrow-parens': 1,
   },
 };

@@ -24,7 +24,7 @@ function router(nav) {
         const results = await collection.insertOne(user);
         debug(results);
         req.login(results.ops[0], () => {
-          res.redirect('/auth/profile');
+          res.redirect('/books');
         });
       } catch (err) {
         debug(err);
@@ -42,7 +42,7 @@ function router(nav) {
     })
     .post(
       passport.authenticate('local', {
-        successRedirect: '/auth/profile',
+        successRedirect: '/books',
         failureRedirect: '/',
       })
     );
